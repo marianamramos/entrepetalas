@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entre Pétalas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7ec6a958ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<!-- o container é tipo a página-->
+
+<!-- criamos a primeira div row (área)- contem o logotipo e a barra de navegação e carrinho-->
+<div class="container">
+  <div class= row>
+        <div class="col-md-12 carrinho imgcabecalho">
+          <a href="carrinho.html"><img src="images/carrinho.png" alt="icone de carrinho" class="img-fluid"></a>
+        </div>
+        <div class="col-md-4 offset-md-4 text-center imgcabecalho">
+          <!-- offset é para localizar o conteúdo na página (só funciona para localaziar em função das colunas à esquerda; neste exemplo estou a dizer que a imagem tem 4 colunas à sua esquerda)-->
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logotipo do website Entre Pétalas" class="img-fluid" width="225" height="225">
+          </a>
+        </div>
+
+<!-- barra de navegação -->
+<div class="col-md-10 offset-md-1 navbar"> <!-- navbar = barra de navegação; fomos buscar o código ao bootstrap-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav"> 
+            <li class="nav-item">
+                <a class="nav-link active activemenu home-margin" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    FLORES
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="aniversario.html">Aniversários</a></li>
+                    <li><a class="dropdown-item" href="casamentos.html">Casamentos</a></li>
+                    <li><a class="dropdown-item" href="cerimoniasfunebres.html">Cerimónias Funebres</a></li>
+                    <li><a class="dropdown-item" href="saovalentim.html">São Valentim</a></li>
+                    <li><a class="dropdown-item" href="todos.html">Todos</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link sobrenos-margin" href="sobrenos.html">SOBRE NÓS</a>
+            </li>
+        </ul>
+      </div>        
+    </div>
+  </nav>
+</div>
+</div>
+
+<!-- informações centrais (localização, email, redes sociais e telemóvel)-->
+<div class="row info" >
+  <!-- primeira linha-->
+  <div class="col-md-1 offset-md-2 margembaixo">
+    <i class="fa-solid fa-location-dot"></i>
+  </div>
+  <div class="col-md-2 margembaixo">
+    <h2>Lisboa, Portugal</h2>
+  </div>
+  <div class="col-md-1 offset-md-2 margembaixo">
+    <i class="fa-solid fa-phone"></i>
+  </div>
+  <div class="col-md-3 margembaixo">
+    <h2>+351 968 914 742</h2>
+  </div>
+  <!-- segunda linha -->
+  <div class="col-md-1 offset-md-2 margembaixo">
+    <i class="fa-solid fa-envelope"></i>
+  </div>
+  <div class="col-md-4 margembaixo">
+    <h2>entrepetalas@ucp.pt</h2>
+  </div>
+  <div class="col-md-1 margembaixo">
+    <i class="fa-solid fa-globe"></i>
+  </div>
+  <div class="col-md-3 margembaixo">
+    <h2>Facebook: Entre Pétalas</h2>
+    <h2>Instagram: entrepetalaslx</h2>
+  </div>
+</div>
+
+<!-- texto e imagem -->
+<div class="row textosn"> <!-- div.row-->
+  <div class="col-md-5 offset-md-2"> <!-- div.col-md-5-->
+<p>A Entre Pétalas nasceu da nossa  <br> profunda admiração pela Natureza. <br> Pretendemos dar a conhecer a <br> beleza que cada flor tem! As nossas <br> flores são cultivadas e cuidadas <br> com muito amor e dedicação. <br> Utilizamos uma produção <br> biológica, respeitando a terra e a <br> Natureza.</p>
+</div>
+<div class="col-md-4 imagemsb">
+  <img src="images/imagemsobrenos.png" alt="imagem da nossa loja física" width="300" height="300" class="img-fluid">
+</div>
+</div>
+</div> <!--fim do 1º conteiner-->
+
+
+
+<!---estou a criar o rodapé-->
+<div class="row alinhadoesq rodape"> 
+  <div class="col-md-3 offset-md-1 logorodape">
+    <img src="images/logo.png" alt="logotipo" width="150" height="150" class="img-fluid">
+  </div>
+
+<div class="col-md-2 rodapelinks">
+<ul>
+  <a href="index.html" class="links-rapidos"><li> Home </li> </a>
+  <a href="todos.html" class="links-rapidos"><li> Flores </li></a>
+  <a href="sobrenos.html" class="links-rapidos"><li> Sobre Nós </li></a>
+</ul>
+</div>
+<div class="col-md-3 rodapesocialmedia">
+<ul>
+  <li> <i class="fa-solid fa-envelope"></i> entrepetalas@ucp.pt</li>
+  <li> <i class="fa-solid fa-phone"></i> +351 968 914 742 </li>
+  <li> <i class="fa-brands fa-square-facebook"></i> Entre Pétalas</li>
+  <li> <i class="fa-brands fa-instagram"></i> entrepetalaslx</li>
+</ul>
+</div>
+</div> <!-- fim rodapé -->
+
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
