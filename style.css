@@ -1,0 +1,76 @@
+/* para fazer os parenteses: alt , shift, 8*/
+.alinhadoesq h2 {text-align: left;}
+body {background-color: #EAEBC8;}
+.row {margin-bottom: 60px;}
+.rodape {background-color: #A18F74;}
+.tabela {margin-bottom: 60px;}
+.navbar {margin-bottom: 30px; margin-top: 30px;}
+.imgcabecalho {margin-bottom: 30px; margin-top: 10px;}
+.logorodape {margin-top: 15px;}
+.tabelaflores {height: 0%;white-space: nowrap;width: 25%;} 
+.seta {margin-bottom: 30px;}
+.detalhes {margin-bottom: 60px; margin-top: 60px;}
+.centrado {text-align: center;}
+.flor p {margin-top: 40px;}
+.navbar-nav .nav-link {font-size: 32px;font-family: "Secular One", system-ui; color: #4F3C21;}
+.home-margin {margin-right: 320px; margin-left: 20px;}
+.sobrenos-margin {margin-left: 325px; white-space: nowrap; }
+.links-rapidos-title {font-size: 30px; white-space: nowrap; color: #4F3C21}
+.links-rapidos {font-size: 30px; white-space: nowrap; color: #4F3C21}
+.links-rapidos:hover {color: #2D1F10;} /* :hover é quando passamos o cursor por cima do link, fica com outra cor*/
+a {text-decoration: none; color: #4F3C21;}
+.imagem-esquerda {margin-left: 30px;}
+.tabelaflores tr {border-bottom: 3px solid #4F3C21;}
+a img:hover {transform: scale(1.1); transition: transform 0.5s;}
+.imgcabecalho a :hover {transform: none; transition: none;}
+.rodape {margin-bottom: 0px;}
+.carrinho {text-align: right;}
+/* .descricaoproduto h6 { white-space: nowrap; margin-left: 180px; margin-top: 100px; background-color: #A18F74; color: white; padding:10px; text-align: center;} */
+.letraindex p{color: #4F3C21; text-align: center; font-family: "Secular One", system-ui; font-size: 20px; font-style: normal; font-weight: 400;line-height: normal; text-transform: uppercase;}
+.letraindex i {color: #4F3C21; text-align: center; font-family: "Font Awesome 6 Free"; font-size: 45px; font-style: normal; font-weight: 900; line-height: normal; text-transform: uppercase;}
+.centrado h4 {color: #4F3C21; text-align: center; font-family: "Secular One", system-ui; font-size: 20px; font-style: normal; font-weight: 400; line-height: normal; text-transform: uppercase;}
+.textosn p {color:#4F3C21; font-family: "Secular One", system-ui; font-size: 20px; font-style: normal;font-weight: 400;line-height: normal; margin-top: 10px;}
+.info h2 {color: #4F3C21; font-family: "Secular One", system-ui; font-size: 15px; font-style: normal; font-weight: 400; line-height: normal; text-transform: uppercase;}
+.info i {color: #4F3C21; text-align: center; font-family: "Font Awesome 6 Free"; font-size: 20px}
+.margembaixo {margin-bottom: 40px;}
+.imagemsb {margin-right: 0px;}
+.dropdown-toggle::after {display: none;}
+.dropdown-menu {background-color:#E9C591;}
+.dropdown-menu a {color: #0B0702; font-family: "Secular One", system-ui; text-align: center;}
+.dropdown-menu a:hover {background-color: #C7A472;}
+.rodape {font-family: "Secular One", system-ui; padding: 50px;}
+.rodape a {font-size: 22px;}
+.rodapelinks h1 {margin-bottom: 20px;}
+.rodapesocialmedia ul {list-style-type: none ; color: #4F3C21}
+.rodapesocialmedia h1 {font-family: "Secular One", system-ui; color: #4F3C21; font-size: 30px ;}
+.rodapesocialmedia li {white-space: nowrap; margin-bottom: 15px; font-size: 20px; }
+.rodapesocialmedia li {margin-left: 50px;} 
+.rodapelinks {margin-left: 55px; margin-top: 45px;}
+.rodapesocialmedia {margin-top: 20px;}
+.rodapelinks ul {list-style-type: none ; color: #4F3C21}
+.rodapelinks li {font-size: 20px; margin-bottom: 15px; margin-left: -40px;}
+.descricaoproduto h2 {color: #625643;font-family: "Secular One", system-ui; }
+.descricaoproduto {color: #A18F74;font-family: "Secular One", system-ui; }
+.descricaoproduto2 {color: #625643;font-family: "Secular One", system-ui; }
+.list-group a {display: block; color: #4F3C21; font-size: 20px; text-wrap: wrap; font-family: "Secular One", system-ui;}
+.list-group li:hover {background-color: #4F3C21;}
+.list-group li:hover a {color: #E9C591;}
+.list-group li {background-color: #E9C591; text-align: center;}
+.list-group li {border: 2px solid #4F3C21;}
+.btn { white-space: nowrap; margin-top: 100px; background-color: #A18F74; color: white; padding:10px; text-align: center; text-transform: uppercase;}
+.btn:hover {background-color: #625643; color: white;}
+.caixaadicionado h6 {background-color: #A18F74; color: white;font-family: "Secular One", system-ui; padding: 20px; margin-bottom: 50px; margin-top: -70px;}
+.dropdown-menu a {color: #4F3C21;}
+.dropdown-menu a:hover {background-color: #4F3C21; color: #E9C591;}
+.produtos h5{font-family: "Secular One", system-ui; color: #4F3C21; margin-top: 15px; text-transform: uppercase;}
+.produtos p{font-family: "Secular One", system-ui; color: #4F3C21; font-size: 18px;}
+.seta {transform: rotate(180deg); margin-left: 325px;}
+.seta2 {transform: rotate(180deg); margin-left: 300px; margin-top: -50px;}
+.descricaoproduto2 p {margin-left: 95px; margin-bottom: 30px;}
+
+
+
+
+@media (max-width: 1000px) { .tabelaflores {margin-bottom: 60px}; }
+@media (max-width: 1000px) { .tabelaflores {width: 202px; height: 206}; }
+@media (max-width: 1000px) { .navbar a {margin-left: 0px; } }
