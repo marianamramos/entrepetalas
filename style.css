@@ -66,9 +66,8 @@ a img:hover {transform: scale(1.1); transition: transform 0.5s;}
 .produtos p{font-family: "Secular One", system-ui; color: #4F3C21; font-size: 18px;}
 .seta {transform: rotate(180deg); margin-left: 325px;}
 .seta2 {transform: rotate(180deg); margin-left: 300px; margin-top: -50px;}
-.descricaoproduto2 p {margin-left: 95px; margin-bottom: 30px;}
-
-
+.descricaoproduto2 p {margin-left: 110px; margin-bottom: 30px;}
+.navbar .navbar-nav .active {color: #4F3C21; font-weight: bold;} 
 
 
 @media (max-width: 1000px) { .tabelaflores {margin-bottom: 60px}; }
