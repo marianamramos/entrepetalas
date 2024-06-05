@@ -1,8 +1,9 @@
 /* para fazer os parenteses: alt , shift, 8*/
 .alinhadoesq h2 {text-align: left;}
+.alinhadoesq ul {margin: 30px;}
 body {background-color: #EAEBC8;}
 .row {margin-bottom: 60px;}
-.rodape {background-color: #A18F74;}
+.rodape {background-color: #A18F74; margin-bottom: 0px;}
 .tabela {margin-bottom: 60px;}
 .navbar {margin-bottom: 30px; margin-top: 30px;}
 .imgcabecalho {margin-bottom: 30px; margin-top: 10px;}
@@ -16,14 +17,14 @@ body {background-color: #EAEBC8;}
 .home-margin {margin-right: 320px; margin-left: 20px;}
 .sobrenos-margin {margin-left: 325px; white-space: nowrap; }
 .links-rapidos-title {font-size: 30px; white-space: nowrap; color: #4F3C21}
-.links-rapidos {font-size: 30px; white-space: nowrap; color: #4F3C21}
+.links-rapidos {font-size: 25px; white-space: nowrap; color: #4F3C21}
 .links-rapidos:hover {color: #2D1F10;} /* :hover é quando passamos o cursor por cima do link, fica com outra cor*/
 a {text-decoration: none; color: #4F3C21;}
 .imagem-esquerda {margin-left: 30px;}
 .tabelaflores tr {border-bottom: 3px solid #4F3C21;}
 a img:hover {transform: scale(1.1); transition: transform 0.5s;}
 .imgcabecalho a :hover {transform: none; transition: none;}
-.rodape {margin-bottom: 0px;}
+/* .rodape {margin-bottom: 0px;} */
 .carrinho {text-align: right;}
 /* .descricaoproduto h6 { white-space: nowrap; margin-left: 180px; margin-top: 100px; background-color: #A18F74; color: white; padding:10px; text-align: center;} */
 .letraindex p{color: #4F3C21; text-align: center; font-family: "Secular One", system-ui; font-size: 20px; font-style: normal; font-weight: 400;line-height: normal; text-transform: uppercase;}
@@ -38,15 +39,14 @@ a img:hover {transform: scale(1.1); transition: transform 0.5s;}
 .dropdown-menu {background-color:#E9C591;}
 .dropdown-menu a {color: #0B0702; font-family: "Secular One", system-ui; text-align: center;}
 .dropdown-menu a:hover {background-color: #C7A472;}
-.rodape {font-family: "Secular One", system-ui; padding: 50px;}
+.rodape {font-family: "Secular One", system-ui; }
 .rodape a {font-size: 22px;}
 .rodapelinks h1 {margin-bottom: 20px;}
 .rodapesocialmedia ul {list-style-type: none ; color: #4F3C21}
 .rodapesocialmedia h1 {font-family: "Secular One", system-ui; color: #4F3C21; font-size: 30px ;}
-.rodapesocialmedia li {white-space: nowrap; margin-bottom: 15px; font-size: 20px; }
+.rodapesocialmedia li {white-space: nowrap; margin-bottom: 15px; font-size: 18px; }
 .rodapesocialmedia li {margin-left: 50px;} 
 .rodapelinks {margin-left: 55px; margin-top: 45px;}
-.rodapesocialmedia {margin-top: 20px;}
 .rodapelinks ul {list-style-type: none ; color: #4F3C21}
 .rodapelinks li {font-size: 20px; margin-bottom: 15px; margin-left: -40px;}
 .descricaoproduto h2 {color: #625643;font-family: "Secular One", system-ui; }
@@ -68,8 +68,45 @@ a img:hover {transform: scale(1.1); transition: transform 0.5s;}
 .seta2 {transform: rotate(180deg); margin-left: 300px; margin-top: -50px;}
 .descricaoproduto2 p {margin-left: 110px; margin-bottom: 30px;}
 .navbar .navbar-nav .active {color: #4F3C21; font-weight: bold;} 
+.links-rapidos:hover {text-decoration: underline;}
+.navbar .navbar-nav .dropdown-toggle {color: #4F3C21;} 
+.nav-item {margin: 0 50px;}
+.footer ul, .footer li {margin: 0px; padding: 0px; list-style: none;}
+.footer {background-color: #A18F74;}
+.footer .row {margin-bottom: 0px;}
+.footer img {margin: 30px 0px; width: 90%; max-width: 150px;}
+.footer ul {margin-top: 50px;}
+.logofooter {text-align: center;}
+.linksfooter ul {margin-left: 20%;}
+.linksfooter, .rodapesocialmedia {font-weight: bold;}
 
-
-@media (max-width: 1000px) { .tabelaflores {margin-bottom: 60px}; }
-@media (max-width: 1000px) { .tabelaflores {width: 202px; height: 206}; }
-@media (max-width: 1000px) { .navbar a {margin-left: 0px; } }
+@media (max-width: 770px) {.linksfooter a {font-size: 18px;} .linksfooter ul {margin-top: 35px;} .rodapesocialmedia li {font-size: 16px;} .footer .rodapesocialmedia ul {margin-top: 30px;}}
+@media (max-width: 1000px) { .tabelaflores {margin-bottom: 100px; margin-left: 30px;}}
+@media (max-width: 1000px) { .tabelaflores {width: 202px; height: 206px;}}
+@media (max-width: 1000px) { .navbar a {margin-left: 0px;}}
+@media (max-width: 770px) { .centrado img {width: 120px; height: 100px;} }
+@media (max-width: 770px) { .centrado div {width: 120px; height: 100px;} }
+@media (max-width: 770px) { .centrado h4 {font-size: 10px;} }
+/* @media (max-width: 770px) { .rodape img {width: 90px; height: 90px;} } */
+@media (max-width: 770px) { .rodape li a {font-size: 13px;} }
+@media (max-width: 770px) { .rodape li {font-size: 13px;} }
+@media (max-width: 770px) { .rodapelinks {margin: 0;} }
+/* @media (max-width: 770px) { .rodapelinks ul, .rodapesocialmedia ul {margin: 0 auto;} } */
+@media (max-width: 770px) {.rodape .col-md-3, .rodape .col-md-2 {max-width: 100%;}}
+@media (max-width: 770px) {.rodape div {height: auto; width: 90px;}}
+@media (max-width: 770px) {.rodape img {height: auto}}
+@media (max-width: 770px) {.rodapelinks {margin-left: 50px; margin-bottom: 5px;}}
+/* @media (max-width: 770px) {.rodapesocialmedia {margin-left: 30px; margin-top: -15px;}} */
+@media (max-width: 770px) {.letraindex p {font-size: 10px;}}
+@media (max-width: 770px) {.detalhes {margin-top: -10px;}}
+@media (max-width: 770px) {.detalhes p {margin-top: -80px;}}
+@media (max-width: 770px) {.centrado {margin-top: -60px; margin-bottom: 90px;}}
+@media (max-width: 920px) {.navbar .navbar-nav li {font-size: 20px;}}
+@media (max-width: 995px) {.textosn p {font-size: 15px;}}
+@media (max-width: 1000px) {.seta img {margin-left: 300px;}}
+@media (max-width: 1200px) {.descricaoproduto2 p {margin-left: 80px;}}
+@media (max-width: 1200px) {.descricaoproduto .btn {margin-left: 40px;}}
+@media (max-width: 1000px) {.descricaoproduto .btn {margin-top: 30px;}}
+@media (max-width: 1000px) {.descricaoproduto2 p {margin-left: 60px; font-size: 12px;}}
+@media (max-width: 770px) {.imagemflor img {width: 250px;height: auto;}}
+@media (max-width: 770px) {.descricaoproduto2 p {margin-left: 0px;}}
