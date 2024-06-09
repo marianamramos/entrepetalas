@@ -30,18 +30,20 @@
 <meta property="twitter:image" content="/images/metatag.png" >
 </head>
 <body>
-  <!-- o container é tipo a página-->
-  <div class="container">
-    <!-- criamos a primeira div row (área)- contem o logotipo e a barra de navegação-->
+  <div class="container"> <!-- container aberto -->
     <div class= row>
-      <div class="col-md-12 carrinho imgcabecalho">
-        <a href="carrinho.html"><img src="images/caraster.png" alt="icone de carrinho" class="img-fluid"></a>
-      </div>
-      <div class="col-md-4 offset-md-4 text-center imgcabecalho">
-        <!-- offset é para localizar o conteúdo na página (só funciona para localaziar em função das colunas à esquerda; neste exemplo estou a dizer que a imagem tem 4 colunas à sua esquerda)-->
-        <a href="index.html">
-          <img src="images/logo.png" alt="Logotipo do website Entre Pétalas" class="img-fluid" width="225" height="225">
-        </a>
+      <div class="col-md-12">
+        <div class="image-container">
+          <div class="col-md-2 offset-md-10 carrinho imgcabecalho">
+            <a href="carrinho.html"><img src="images/caraster.png" alt="icone de carrinho" class="img-fluid"></a>
+          </div>
+        </div>
+     
+        <div class="col-md-4 offset-md-4 text-center imgcabecalho logocabecalho">
+          <!-- (offset é para localizar o conteúdo na página (só funciona para localaziar em função das colunas à esquerda, neste exemplo estou a dizer que a imagem tem 4 colunas à sua esquerda)-->
+          <a href="index.html"><img src="images/logo.png" alt="Logotipo do website Entre Pétalas" class="img-fluid" width="225" height="225">
+          </a>
+        </div>
       </div>
 
 <!-- barra de navegação -->
