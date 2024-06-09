@@ -64,8 +64,8 @@ a img:hover {transform: scale(1.1); transition: transform 0.5s;}
 .dropdown-menu a:hover {background-color: #4F3C21; color: #E9C591;}
 .produtos h5{font-family: "Secular One", system-ui; color: #4F3C21; margin-top: 15px; text-transform: uppercase;}
 .produtos p{font-family: "Secular One", system-ui; color: #4F3C21; font-size: 18px;}
-.seta {transform: rotate(180deg); margin-left: 325px;}
-.seta2 {transform: rotate(180deg); margin-left: 300px; margin-top: -50px;}
+/*.seta {transform: rotate(180deg); margin-left: 325px;}*/
+.seta2 {/*transform: rotate(180deg); margin-left: 300px;*/ margin-top: -50px;}
 .descricaoproduto2 p {margin-left: 110px; margin-bottom: 30px;}
 .navbar .navbar-nav .active {color: #4F3C21; font-weight: bold;} 
 .links-rapidos:hover {text-decoration: underline;}
@@ -79,6 +79,7 @@ a img:hover {transform: scale(1.1); transition: transform 0.5s;}
 .logofooter {text-align: center;}
 .linksfooter ul {margin-left: 20%;}
 .linksfooter, .rodapesocialmedia {font-weight: bold;}
+.carrinho {position:relative}
 
 @media (max-width: 770px) {.linksfooter a {font-size: 18px;} .linksfooter ul {margin-top: 35px;} .rodapesocialmedia li {font-size: 16px;} .footer .rodapesocialmedia ul {margin-top: 30px;}}
 @media (max-width: 1000px) { .tabelaflores {margin-bottom: 100px; margin-left: 30px;}}
@@ -94,7 +95,7 @@ a img:hover {transform: scale(1.1); transition: transform 0.5s;}
 /* @media (max-width: 770px) { .rodapelinks ul, .rodapesocialmedia ul {margin: 0 auto;} } */
 @media (max-width: 770px) {.rodape .col-md-3, .rodape .col-md-2 {max-width: 100%;}}
 @media (max-width: 770px) {.rodape div {height: auto; width: 90px;}}
-@media (max-width: 770px) {.rodape img {height: auto}}
+/*@media (max-width: 770px) {.rodape img {height: auto}}*/
 @media (max-width: 770px) {.rodapelinks {margin-left: 50px; margin-bottom: 5px;}}
 /* @media (max-width: 770px) {.rodapesocialmedia {margin-left: 30px; margin-top: -15px;}} */
 @media (max-width: 770px) {.letraindex p {font-size: 10px;}}
@@ -103,10 +104,22 @@ a img:hover {transform: scale(1.1); transition: transform 0.5s;}
 @media (max-width: 770px) {.centrado {margin-top: -60px; margin-bottom: 90px;}}
 @media (max-width: 920px) {.navbar .navbar-nav li {font-size: 20px;}}
 @media (max-width: 995px) {.textosn p {font-size: 15px;}}
-@media (max-width: 1000px) {.seta img {margin-left: 300px;}}
+/*@media (max-width: 1000px) {.seta img {margin-left: 300px;}}*/
 @media (max-width: 1200px) {.descricaoproduto2 p {margin-left: 80px;}}
 @media (max-width: 1200px) {.descricaoproduto .btn {margin-left: 40px;}}
 @media (max-width: 1000px) {.descricaoproduto .btn {margin-top: 30px;}}
 @media (max-width: 1000px) {.descricaoproduto2 p {margin-left: 60px; font-size: 12px;}}
 @media (max-width: 770px) {.imagemflor img {width: 250px;height: auto;}}
 @media (max-width: 770px) {.descricaoproduto2 p {margin-left: 0px;}}
+@media (max-width: 990px) {.setabp img {margin-left: -90px;}}
+/*@media (max-width: 994px) {.setatamanhoant img {margin-top: 300px; margin-left: 0px;}}
+@media (max-width: 993px) {.setatamanhoant img {margin-left: -625px;}}*/
+@media (max-width: 770px) {.setabp2 img {margin-left: -50px;}}
+@media (max-width: 770px) {.setabp img {margin-left: -80px;}}
+@media (max-width: 767px) {.setabp img {margin-left: 30px;}}
+@media (max-width: 767px) {.setabp2 img {margin-left: 400px;}}
+/*@media (max-width: 2000px) {.setatamanho img {height: 50px; width: 50px;}}*/
+/*@media (max-width: 993px) {.setatamanhoant img {margin-top: 300px; margin-left: -625px;}}*/
+@media (max-width: 770px) {.carrinho img {position:relative;}}
+@media (max-width: 993px) {.logocabecalho img {width: 180px; height: 180px;}}
+
